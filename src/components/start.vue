@@ -11,20 +11,12 @@
 <script>
 export default {
     name:'qStart',
-    data() {
-      return {
-
-      }
-    },
+    data() {return {}},
     methods:{
         toIndex(){
             this.$router.push({ path: '/index' })
         }
     },
-    watch:{
-    },
-    created(){
-    }
 }
 </script>
 <style scoped>

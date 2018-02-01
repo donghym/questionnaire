@@ -147,36 +147,23 @@ export default {
 }
 </script>
 <style scoped>
-    .questionnaire{background-color: #ebebeb;padding:3em 2em;color:#010101;height: 100%;box-sizing: border-box;}
-    h2{line-height:2;}
-    dl{}
-    dt{line-height:1.5;color:#010101;font-weight: bold;margin:10px 0;}
-    .q-radio{margin-left: -30px;}
-    dd{line-height: 30px;color:#010101;font-weight: normal;}
-    .el-progress{border: #ccc solid 2px; border-radius:20px;margin-bottom: 20px;overflow: hidden;}
+.questionnaire{background-color: #ebebeb;padding:3em 2em;color:#010101;height: 100%;box-sizing: border-box;overflow-x: hidden;}
+h2{line-height:2;}
+dt{line-height:1.5;color:#010101;font-weight: bold;margin:10px 0;}
+.q-radio{margin-left: -30px;}
+dd{line-height: 30px;color:#010101;font-weight: normal;}
+.el-progress{border: #ccc solid 2px;border-radius:20px;margin-bottom: 20px;overflow: hidden;}
 </style>
-    <style>
+<style>
     .el-radio__label{font-size: inherit;display: inline;white-space:inherit;}
-    .el-button--danger:focus,.el-button--danger:hover {background-color:#f56c6c;border-color: #f56c6c;}
+    .el-button--danger:focus,.el-button--danger:hover{background-color:#f56c6c;border-color: #f56c6c;}
     .el-input__inner{margin-top: 0;}
     .el-input__inner select{width: 100%;overflow: hidden;}
     .el-input__inner option{width: 100%;}
     .el-checkbox,.el-radio{color: inherit;font-size: inherit;font-weight:normal;white-space:inherit;line-height: 2rem;}
     .el-checkbox-group{font-size: inherit;}
     .el-checkbox__label{font-size: inherit;display: inline;}
-    .el-progress.is-exception .el-progress-bar__inner{
-    background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
-    background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
-    -webkit-background-size: 40px 40px;
-    }
+    .el-progress.is-exception .el-progress-bar__inner{background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);-webkit-background-size: 40px 40px;}
     .el-radio{margin-left: 30px;}
-    .evaluate_success {
-        background-color: #ebebeb;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%,-60%);
-        transform: translate(-50%,-60%);
-        margin: 0;
-    }
+    .evaluate_success{background-color: #ebebeb;position: absolute;top: 50%;left: 50%;-webkit-transform: translate(-50%,-60%);transform: translate(-50%,-60%);margin: 0;}
 </style>
